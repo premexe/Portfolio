@@ -47,6 +47,18 @@ const Experience: React.FC = () => {
       period: '2024',
       glowColor: 'glow-blue',
     },
+    {
+      
+        title: 'AI-ML Virtual Internship',
+        organization: 'Google for Developers | AICTE | EduSkills',
+        description: 'Successfully completed a 10-week virtual internship focused on core AI/ML concepts, model development, and practical implementation using TensorFlow and Scikit-learn. Gained hands-on experience through real-world problem-solving and mentorship under the India Edu Program.',
+        icon: Award,
+        color: 'from-orange-400 to-red-500',
+        period: '2025',
+        glowColor: 'glow-orange',
+      
+      
+    },
   ];
 
   const containerVariants = {
