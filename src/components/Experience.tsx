@@ -43,7 +43,7 @@ const Experience: React.FC = () => {
       organization: 'Eduskills',
       description: 'Completed a rigorous online internship focused on data science workflows, machine learning, and evaluation using Altair tools.',
       icon: Award,
-      color: 'from-blue-400 to-cyan-500',
+      color: 'from-blue-400 to-purple-500',
       period: '2024',
       glowColor: 'glow-blue',
     },
