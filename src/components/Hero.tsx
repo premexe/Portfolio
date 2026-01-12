@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/portfolio-site/Prem_Kakade_Resume.pdf'; // Path for GitHub Pages
-    link.download = 'Prem_Kakade_Resume.pdf';
+    link.href = '/Prem_Kakade_Resume_New_OG.pdf'; // Path for GitHub Pages
+    link.download = 'Prem_Kakade_Resume_New_OG.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <span className="text-gradient neon-text">Data</span>
+              <span className="text-gradient neon-text">Future Data</span>
               <br />
               <span className="text-white">Scientist</span>
             </motion.h1>
@@ -158,7 +158,6 @@ const Hero: React.FC = () => {
               >
                 <Linkedin size={24} className="text-blue-400" />
               </motion.a>
-
               <motion.a
                 href="mailto:premkakade2021@gmail.com"
                 className="p-3 rounded-full glass-dark hover:glow-blue transition-all duration-300 interactive tilt-effect"
