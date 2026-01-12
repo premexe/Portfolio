@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Prem_Kakade_Resume_New_OG.pdf'; // Path for GitHub Pages
+    link.href = '/Portfolio/Prem_Kakade_Resume_New_OG.pdf'; // Path for GitHub Pages
     link.download = 'Prem_Kakade_Resume_New_OG.pdf';
     document.body.appendChild(link);
     link.click();
